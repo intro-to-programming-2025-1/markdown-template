@@ -63,10 +63,11 @@ and **error-free** documentation using:
 
 ```bash
 markdown-template/
+├── public
+├── src
+├── styles
 ├── README.md
 ├── week-1.md
-├── notes/
-│   └── introduction-to-html.md
 ├── .prettierrc
 ├── .cspell.json
 ├── .ls-lint.yml
