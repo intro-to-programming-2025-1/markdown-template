@@ -1,0 +1,31 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "dictionaries": ["typescript", "node", "html", "filetypes", "softwareTerms"],
+  "ignorePaths": [
+    "node_modules/**",
+    "dist/**",
+    "build/**",
+    ".vscode/**",
+    "**/*.min.*",
+    "package-lock.json"
+  ],
+  "ignoreWords": [
+    "README",
+    "VSCode",
+    "markdownlint",
+    "Prettier",
+    "npm",
+    "bash",
+    "repo",
+    "Iconify",
+    "iconify"
+  ],
+  "words": [],
+  "overrides": [
+    {
+      "filename": "**/*.md",
+      "language": "en"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+version: 1
+files:
+  ignore:
+    - node_modules
+    - .git
+    - dist
+    - build
+    - .vscode
+
+rules:
+  # Enforce kebab-case for all markdown file names
+  file-naming:
+    .: kebab-case
+
+  # Enforce kebab-case for all directory names
+  dir-naming:
+    .: kebab-case
